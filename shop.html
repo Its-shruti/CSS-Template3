@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ========== Start Header Section ========== -->
+
+    <header class="section-header">
+        <div class="container-fluid flex">
+
+            <div class="left logo">
+                <img src="images/index-img/logo.png.webp" alt="">
+            </div>
+
+            <ul class="menu flex">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="#">Women's</a></li>
+                <li class="nav-item"><a href="#">Men's</a></li>
+                <li class="nav-item"><a href="shop.html">Shop</a></li>
+                <li class="nav-item"><a href="product-detail.html">Pages</a></li>
+                <li class="nav-item"><a href="shop-cart.html">blog</a></li>
+                <li class="nav-item"><a href="contact.html">contact</a></li>
+            </ul>
+
+            <div class="right flex">
+                <div class="login-reg">
+                    <p><a href="">login</a> / <a href="">register</a></p>
+                </div>
+                <ul class="icons flex">
+                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                    <li><i class="fa-solid fa-bag-shopping"></i></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========== End Header Section ========== -->
+
+
+
+
+
+    <!-- ========== Start bread-Crum Section ========== -->
+
+    <section class="bread-crum">
+        <div class="container">
+            <p><a href=""><i class="fa-solid fa-house-chimney"></i> Home <i class="fa-solid fa-chevron-right"></i></a>
+                <span> Shop</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- ========== End bread-Crum Section ========== -->
+
+
+
+
+
+    <!-- ========== Start Shop Section ========== -->
+
+    <section class="section-shop">
+        <div class="container">
+            <div class="main-grid-box grid grid-two-cols">
+                <div class="col side-bar">
+                    <ul class="categories main">
+                        <li class="heading">Categories</li>
+                        <li class="nav-item">Women</li>
+                        <li class="nav-item">Men</li>
+                        <li class="nav-item">Kids</li>
+                        <li class="nav-item">Accessories</li>
+                        <li class="nav-item">Cosmetic</li>
+                    </ul>
+
+                    <ul class="shop-by-price main">
+                        <li class="heading">Shop by price</li>
+                        <li><input type="range"></li>
+
+                        <ul class="flex price-filter">
+                            <li class="price-item"><span>price:</span> $33 - $98</li>
+                            <li><button class="btn">FILTER</button></li>
+                        </ul>
+
+                    </ul>
+
+                    <ul class="shop-by-size main">
+                        <li class="heading">Shop by size</li>
+                        <li class="nav-item">
+                            <input type="checkbox" name="xxs" id="xxs"> <label for="xxs">xxs</label>
+                        </li>
+                        <li class="nav-item">
+                            <input type="checkbox" name="xs" id="xs"> <label for="xs">xs</label>
+                        </li>
+                        <li class="nav-item">
+                            <input type="checkbox" name="xs-s" id="xs-s"> <label for="xs-s">xs-s</label>
+                        </li>
+                        <li class="nav-item">
+                            <input type="checkbox" name="s" id="s"> <label for="s">s</label>
+                        </li>
+                        <li class="nav-item">
+                            <input type="checkbox" name="m" id="m"> <label for="m">m</label>
+                        </li>
+                        <li class="nav-item">
+                            <input type="checkbox" name="m-l" id="m-l"> <label for="m-l">m-l</label>
+                        </li>
+                        <li class="nav-item">
+                            <input type="checkbox" name="l" id="l"> <label for="l">l</label>
+                        </li>
+                        <li class="nav-item">
+                            <input type="checkbox" name="xl" id="xl"> <label for="xl">xl</label>
+                        </li>
+                    </ul>
+
+                    <ul class="shop-by-color main">
+                        <li class="heading">shop by colour</li>
+                        <li class="nav-item">
+                            <input type="checkbox" name="Black" id="Black"> <label for="Black">Black</label>
+                        </li>
+                        <li class="nav-item">
+                            <input type="checkbox" name="white" id="white"> <label for="white">white</label>
+                        </li>
+                        <li class="nav-item">
+                            <input type="checkbox" name="Red-s" id="Red-s"> <label for="Red-s">Red-s</label>
+                        </li>
+                        <li class="nav-item">
+                            <input type="checkbox" name="Gray" id="Gray"> <label for="Gray">Gray</label>
+                        </li>
+                        <li class="nav-item">
+                            <input type="checkbox" name="Blue" id="Blue"> <label for="Blue">Blue</label>
+                        </li>
+                        <li class="nav-item">
+                            <input type="checkbox" name="Beige" id="Beige"> <label for="Beige">Beige</label>
+                        </li>
+                        <li class="nav-item">
+                            <input type="checkbox" name="Green" id="Green"> <label for="Green">Green</label>
+                        </li>
+                        <li class="nav-item">
+                            <input type="checkbox" name="Yellow" id="Yellow"> <label for="Yellow">Yellow</label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col main-big-col">
+                    <section class="new-product-section">
+
+                        <div class="main-grid-box grid grid-three-cols">
+
+                            <div class="col col1">
+                                <div class="my-img">
+                                    <ul class="hover-box flex">
+                                        <li><i class="fa-solid fa-up-right-and-down-left-from-center"></i></li>
+                                        <li><i class="fa-solid fa-heart"></i></i></li>
+                                        <li><i class="fa-solid fa-bag-shopping"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="content">
+                                    <div class="detail">Buttons tweed blazer</div>
+                                    <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i></div>
+                                    <div class="price">$ 59.0</div>
+                                </div>
+                            </div>
+
+                            <div class="col col2">
+                                <div class="my-img">
+                                    <ul class="hover-box flex">
+                                        <li><i class="fa-solid fa-up-right-and-down-left-from-center"></i></li>
+                                        <li><i class="fa-solid fa-heart"></i></i></li>
+                                        <li><i class="fa-solid fa-bag-shopping"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="content">
+                                    <div class="detail">Buttons tweed blazer</div>
+                                    <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i></div>
+                                    <div class="price">$ 59.0</div>
+                                </div>
+                            </div>
+
+                            <div class="col col3">
+                                <div class="my-img">
+                                    <ul class="hover-box flex">
+                                        <li><i class="fa-solid fa-up-right-and-down-left-from-center"></i></li>
+                                        <li><i class="fa-solid fa-heart"></i></i></li>
+                                        <li><i class="fa-solid fa-bag-shopping"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="content">
+                                    <div class="detail">Cotton T-Shirt</div>
+                                    <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i></div>
+                                    <div class="price">$ 49.0</div>
+                                </div>
+                            </div>
+
+                            <div class="col col4">
+                                <div class="my-img">
+                                    <ul class="hover-box flex">
+                                        <li><i class="fa-solid fa-up-right-and-down-left-from-center"></i></li>
+                                        <li><i class="fa-solid fa-heart"></i></i></li>
+                                        <li><i class="fa-solid fa-bag-shopping"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="content">
+                                    <div class="detail">Slim striped pocket shirt</div>
+                                    <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i></div>
+                                    <div class="price">$ 59.0</div>
+                                </div>
+                            </div>
+
+                            <div class="col col5">
+                                <div class="my-img">
+                                    <ul class="hover-box flex">
+                                        <li><i class="fa-solid fa-up-right-and-down-left-from-center"></i></li>
+                                        <li><i class="fa-solid fa-heart"></i></i></li>
+                                        <li><i class="fa-solid fa-bag-shopping"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="content">
+                                    <div class="detail">Fit micro corduroy shirt</div>
+                                    <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i></div>
+                                    <div class="price">$ 59.0</div>
+                                </div>
+                            </div>
+
+                            <div class="col col6">
+                                <div class="my-img">
+                                    <ul class="hover-box flex">
+                                        <li><i class="fa-solid fa-up-right-and-down-left-from-center"></i></li>
+                                        <li><i class="fa-solid fa-heart"></i></i></li>
+                                        <li><i class="fa-solid fa-bag-shopping"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="content">
+                                    <div class="detail">Tropical Kimono</div>
+                                    <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i></div>
+                                    <div class="price">$ 59.0</div>
+                                </div>
+                            </div>
+
+                            <div class="col col7">
+                                <div class="my-img">
+                                    <ul class="hover-box flex">
+                                        <li><i class="fa-solid fa-up-right-and-down-left-from-center"></i></li>
+                                        <li><i class="fa-solid fa-heart"></i></i></li>
+                                        <li><i class="fa-solid fa-bag-shopping"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="content">
+                                    <div class="detail">Contrasting sunglasses</div>
+                                    <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i></div>
+                                    <div class="price">$ 59.0</div>
+                                </div>
+                            </div>
+
+                            <div class="col col8">
+                                <div class="my-img">
+                                    <ul class="hover-box flex">
+                                        <li><i class="fa-solid fa-up-right-and-down-left-from-center"></i></li>
+                                        <li><i class="fa-solid fa-heart"></i></i></li>
+                                        <li><i class="fa-solid fa-bag-shopping"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="content">
+                                    <div class="detail">Water resistant backpack</div>
+                                    <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i></div>
+                                    <div class="price">$ 59.0</div>
+                                </div>
+                            </div>
+
+                            <div class="col col9">
+                                <div class="my-img">
+                                    <ul class="hover-box flex">
+                                        <li><i class="fa-solid fa-up-right-and-down-left-from-center"></i></li>
+                                        <li><i class="fa-solid fa-heart"></i></i></li>
+                                        <li><i class="fa-solid fa-bag-shopping"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="content">
+                                    <div class="detail">Water resistant backpack</div>
+                                    <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i></div>
+                                    <div class="price">$ 59.0</div>
+                                </div>
+                            </div>
+
+                            <div class="col col10 flex">
+                                <div class="main-icon-box flex">
+                                    <p><a href="">1</a></p>
+                                    <p><a href="">2</a></p>
+                                    <p><a href="">3</a></p>
+                                    <p>
+                                        <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== End Shop Section ========== -->
+
+
+
+
+
+    <!-- ========== Start Instagram-post Section ========== -->
+
+    <section class="instagram-section">
+        <div class="container-fluid">
+            <div class="main-grid grid grid-six-cols">
+                <div class="col col1">
+                    <div class="hover-div flex">
+                        <div class="content">
+                            <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                            <div class="insta-id"><a href="">&commat; ashio_shop</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col2">
+                    <div class="hover-div flex">
+                        <div class="content">
+                            <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                            <div class="insta-id"><a href="">&commat; ashio_shop</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col3">
+                    <div class="hover-div flex">
+                        <div class="content">
+                            <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                            <div class="insta-id"><a href="">&commat; ashio_shop</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col4">
+                    <div class="hover-div flex">
+                        <div class="content">
+                            <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                            <div class="insta-id"><a href="">&commat; ashio_shop</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col5">
+                    <div class="hover-div flex">
+                        <div class="content">
+                            <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                            <div class="insta-id"><a href="">&commat; ashio_shop</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col6">
+                    <div class="hover-div flex">
+                        <div class="content">
+                            <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                            <div class="insta-id"><a href="">&commat; ashio_shop</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== End Instagram-post Section ========== -->
+
+
+
+
+
+    <!-- ========== Start Footer Section ========== -->
+
+    <div class="section footer-section">
+        <div class="container">
+            <div class="main-grid-box1 grid grid-four-cols">
+                <ul class="col col1">
+                    <li class="logo">
+                        <img src="images/index-img/logo.png.webp" alt="">
+                    </li>
+                    <li class="detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt cilisis.</li>
+                    <li class="icons-box flex">
+                        <div class="icon">
+                            <a href=""><img src="images/index-img/payment-1.png" alt=""></a>
+                        </div>
+                        <div class="icon">
+                            <div class="icon">
+                                <a href=""><img src="images/index-img/payment-2.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <div class="icon">
+                                <a href=""><img src="images/index-img/payment-3.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <div class="icon">
+                                <a href=""><img src="images/index-img/payment-4.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <div class="icon">
+                                <a href=""><img src="images/index-img/payment-5.png" alt=""></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="col col2">
+                    <li>Quick links</li>
+                    <li><a href="" class="detail">About</a></li>
+                    <li><a href="" class="detail">Blog</a></li>
+                    <li><a href="" class="detail">Contact</a></li>
+                    <li><a href="" class="detail">FAQ</a></li>
+                </ul>
+
+                <ul class="col col3">
+                    <li>Account</li>
+                    <li><a href="" class="detail">My account</a></li>
+                    <li><a href="" class="detail">Checkout</a></li>
+                    <li><a href="" class="detail">Wishlist</a></li>
+                    <li><a href="" class="detail">Order Tracking</a></li>
+                </ul>
+
+                <ul class="col col4">
+                    <li>newsletter</li>
+                    <li class="my-form">
+                        <form action="">
+                            <input type="email" placeholder="Email">
+                            <button class="btn">Subscribe</button>
+                        </form>
+                    </li>
+                    <li class="icon-box">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-google"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="main-grid-box2">
+                <p>Copyright &#169; 2024 All rights reserved | This template is made with by Colorlib</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== End Footer Section ========== -->
+
+</body>
+
+</html>
